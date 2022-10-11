@@ -1,0 +1,55 @@
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    /* ie8 */
+}
+
+.HomeBG {
+    background-color: #151719;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.color-nav {
+    background-color: #151719;
+}
+
+.divHome {
+    padding-top: 10vh;
+    padding-left: 2vw;
+    color: whitesmoke;
+}
+
+.navbar-brand {
+
+    margin-left: -4vw;
+}
+
+.span-textColor {
+    color: rgb(214, 33, 27);
+
+}
+
+.navbar-link {
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.gradient-custom {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.Profile-Text-Color {
+    color: black;
+}
+
