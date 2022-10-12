@@ -59,14 +59,14 @@ export default function AdminDashboard() {
   //   return [d.getMonth() + 1, d.getDate(), d.getFullYear()].join("/");
   // }
   let Users = {
-    name: { name },
-    dateOfBirth: { value },
-    gender: { select },
-    email: { email },
-    password: { password },
-    companyId: { companyId },
+    name: name,
+    dateOfBirth: value,
+    gender: select,
+    email: email,
+    password: password,
+    companyId: companyId,
   };
-  const url = `https://localhost:7216/api/${Users}/`;
+  const url = `https://localhost:7216/api/Users`;
   // const insertData = async (e) => {
   //   if (name === "" || email === "" || password === "" || companyId === "") {
   //     alert("please fill all the fields");
@@ -105,6 +105,11 @@ export default function AdminDashboard() {
     console.log(Users);
     const res = await axios.post(url, Users);
     console.log(res);
+    if (res.status === 200) {
+      alert("user added successfully");
+    } else {
+      alert("user not added//error");
+    }
   };
 
   return (
