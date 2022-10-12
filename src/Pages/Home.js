@@ -6,7 +6,7 @@ import { Button, Typography } from "@mui/material";
 import Logo from "../Assets/images/icon.png";
 import "../Styles/Pages.css";
 import { useNavigate } from "react-router-dom";
-import background from "../Assets/images/background.jpg";
+import background from "../Assets/images/meetingRoomPic.jpg";
 
 const Home = () => {
   //variables
@@ -83,18 +83,9 @@ const Home = () => {
           Book Rooms
         </Typography>
         <br />
-        <span className="span-textColor">
-          <Typography
-            variant="h1"
-            fontFamily={"Inter,sans-serif"}
-            textAlign={"left"}
-            fontWeight={"bold"}
-            fontSize={"7em"}
-          >
-            Online
-          </Typography>
-        </span>
+        
       </div>
+      <span className="span-textColor">Online</span>
     </div>
   );
 };
